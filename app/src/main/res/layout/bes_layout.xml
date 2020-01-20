@@ -11,8 +11,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="63dp"
         android:layout_marginBottom="373dp" />
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/view_pager"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="512dp" />
+        android:layout_height="wrap_content"/>
 </RelativeLayout>

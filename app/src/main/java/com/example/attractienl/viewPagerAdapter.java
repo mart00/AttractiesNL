@@ -24,16 +24,17 @@ public class viewPagerAdapter extends PagerAdapter{
         }
 
         private Integer[] images = {
-                R.drawable.beeksebergen,
-                R.drawable.dolfinarium,
-                R.drawable.drievliet,
-                R.drawable.drunenseduinen,
-                R.drawable.duinrell,
                 R.drawable.efteling,
-                R.drawable.julianatoren,
-                R.drawable.plopsaland,
                 R.drawable.slagharen,
-                R.drawable.walibi
+                R.drawable.drunenseduinen,
+                R.drawable.drievliet,
+                R.drawable.duinrell,
+                R.drawable.julianatoren,
+                R.drawable.dolfinarium,
+                R.drawable.walibi,
+                R.drawable.beeksebergen,
+                R.drawable.plopsaland
+
         };
     public Integer[] getImages() {
         return images;

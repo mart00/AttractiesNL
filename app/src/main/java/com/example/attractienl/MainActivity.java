@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
                 Intent intent = new Intent(MainActivity.this, beschrijving.class);
-                String itemClicked = itemname[position];
+                Integer itemClicked = position+1;
                 intent.putExtra("itemname", itemClicked);
                 startActivity(intent);
             }
